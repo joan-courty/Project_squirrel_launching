@@ -1,3 +1,5 @@
+package equipements;
+
 public class Ariane5 extends Lanceur {
     public Ariane5() {
         super("Ariane 5", false, 700.0, 2, 20.0, 180.0);

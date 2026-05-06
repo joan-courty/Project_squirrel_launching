@@ -1,3 +1,6 @@
+package missions;
+
+import equipements.Fusee;
 public abstract class Mission {
     protected String nom;
     protected boolean habitationRequise;

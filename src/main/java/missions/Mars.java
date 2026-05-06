@@ -1,6 +1,9 @@
-public class ISS extends Mission {
-    public ISS() {
-        super("ISS", true, 400.0, 1.2); 
+package missions;
+
+import equipements.Fusee;
+public class Mars extends Mission {
+    public Mars() {
+        super("Mars", true, 225000000.0, 0.000015);
     }
 
     @Override

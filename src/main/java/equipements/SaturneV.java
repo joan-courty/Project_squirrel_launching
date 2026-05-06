@@ -1,3 +1,5 @@
+package equipements;
+
 public class SaturneV extends Lanceur {
     public SaturneV() {
         super("Saturne V", true, 2700.0, 0, 140.0, 1500.0);

@@ -1,3 +1,5 @@
+package equipements;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -5,7 +7,7 @@ public class Fusee {
     // Composition fusee
     private Lanceur lanceur;
     private Capsule capsule;
-    private List<Booster> boosters; // Utilisation d'une collection (ArrayList) demandée par le sujet
+    private List<Booster> boosters;
 
     // Constructeur
     public Fusee(Lanceur lanceur, Capsule capsule) {

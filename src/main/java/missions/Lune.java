@@ -1,6 +1,9 @@
-public class MissionAsteroid extends Mission {
-    public MissionAsteroid() {
-        super("Minage Astéroïde", true, 3000000.0, 0.001); 
+package missions;
+
+import equipements.Fusee;
+public class Lune extends Mission {
+    public Lune() {
+        super("Lune", true, 400000.0, 0.005);
     }
 
     @Override

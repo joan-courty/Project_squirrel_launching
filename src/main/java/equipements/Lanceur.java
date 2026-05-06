@@ -1,3 +1,5 @@
+package equipements;
+
 public abstract class Lanceur {
     protected String nom;
     protected boolean peutEtreHabite;

@@ -1,3 +1,5 @@
+package equipements;
+
 public abstract class Capsule {
     protected String nom;
     protected boolean estHabitee;

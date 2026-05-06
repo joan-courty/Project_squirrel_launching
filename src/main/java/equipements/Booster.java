@@ -1,3 +1,5 @@
+package equipements;
+
 public class Booster {
     private String nom;
     private int pousseeAdditionnelle; 

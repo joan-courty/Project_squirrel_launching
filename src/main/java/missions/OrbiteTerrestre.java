@@ -1,3 +1,6 @@
+package missions;
+
+import equipements.Fusee;
 public class OrbiteTerrestre extends Mission {
     public OrbiteTerrestre() {
         super("Orbite terrestre", false, 400.0, 1.0);
